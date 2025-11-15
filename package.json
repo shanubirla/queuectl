@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node cli.js"
   },
-  "author": "Your Name",
+  "author": "Shanu Birla",
   "license": "MIT",
   "dependencies": {
     "better-sqlite3": "^12.4.1",

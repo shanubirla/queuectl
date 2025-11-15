@@ -1,4 +1,3 @@
-
 # queuectl — Job Queue and Worker System
 
 `queuectl` is a lightweight CLI-based job queue system implemented in Node.js. It provides background job processing, worker management, retries, and a Dead Letter Queue (DLQ). It is designed to be simple, extensible, and framework-independent.

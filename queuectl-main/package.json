@@ -1,0 +1,18 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue with retries and DLQ",
+  "bin": {
+    "queuectl": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}

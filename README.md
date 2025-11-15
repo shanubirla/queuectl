@@ -180,6 +180,5 @@ queuectl dlq retry <jobId>
 queuectl worker stop
 ```
 
-If everything checks out here, your system is up and running just fine!
----
+
 

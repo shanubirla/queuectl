@@ -13,6 +13,7 @@
   "dependencies": {
     "better-sqlite3": "^12.4.1",
     "commander": "^10.0.0",
+    "express": "^5.1.0",
     "uuid": "^9.0.0"
   }
 }

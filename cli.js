@@ -1,6 +1,5 @@
-#!/usr/bin/env node
 const { program } = require("commander");
-const { db, DB_PATH } = require("./lib/db");
+const { db, DB_PATH } = require("./lib/db").default;
 const { setConfig, getInt, getRaw } = require("./lib/config");
 const { fork, spawn } = require("child_process");
 const path = require("path");

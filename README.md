@@ -181,4 +181,15 @@ queuectl worker stop
 ```
 
 
+Here is a clean and professional sentence you can directly paste into your **README.md**:
+
+---
+
+### CLI Demo Video
+
+You can watch the complete working demo here:
+👉 **[Google Drive Video Link](https://drive.google.com/file/d/1Qvs9hw00yKlidMTucsMo09y-G6FSSvrq/view?usp=sharing)**
+
+---
+
 

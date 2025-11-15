@@ -1,0 +1,112 @@
+/* =========================
+   Global Styles
+========================= */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  padding: 30px;
+  background: #f0f2f5;
+  color: #333;
+}
+
+/* =========================
+   Heading
+========================= */
+h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* =========================
+   Stats Cards
+========================= */
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 180px;
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 6px solid #4a90e2;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Colored borders for different states */
+.card:nth-child(1) { border-left-color: #f39c12; } /* Pending */
+.card:nth-child(2) { border-left-color: #2980b9; } /* Processing */
+.card:nth-child(3) { border-left-color: #2ecc71; } /* Completed */
+.card:nth-child(4) { border-left-color: #e74c3c; } /* Dead */
+
+/* =========================
+   Table
+========================= */
+h2 {
+  margin-bottom: 15px;
+  color: #1f1f1f;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+table thead {
+  background: #4a90e2;
+  color: white;
+  font-weight: 600;
+}
+
+table th, table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 16px;
+}
+
+table tbody tr {
+  transition: background 0.2s ease;
+}
+
+table tbody tr:hover {
+  background: #f9fafc;
+}
+
+/* Action Button */
+.action-btn {
+  padding: 8px 14px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.action-btn:hover {
+  background: #357ab8;
+}
